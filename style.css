@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 ;
+}
+.container a{
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+/*---home----*/
+.home{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 100px;
+}
+.home-title{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.play-btn{
+    width: 50px;
+    margin: 20px;
+}
+.home a{
+    color: #fff;
+    text-decoration: none;
+}
+.img-buil{
+    width: 100%;
+}
+.img-end{
+    width: 100%;
+}
+/*-home-*/
+/*----service-----*/
+.service{
+    padding: 100px 0;
+}
+.service-img{
+    width: 100px;
+}
+.service{
+    padding: 20px;
+}
+.service h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.service button{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    border-radius: 20px;
+}
+/*----service------*/
+/*-----About Us ------*/
+.about-us{
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.about-p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.about-us ul li{
+    margin: 10px 0;
+}
+.about-img{
+    margin-top: 25px;
+}
+/*-----About Us ------*/
+/*--------tes--------*/
+.tes-div{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tes-div img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-data{
+    display: inline-block;
+    font-size: 12px;
+}
+/*--------tes--------*/
+/*-------social media----*/
+.social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+.social-media p{
+    font-size: 40px;
+    font-weight: 600;
+   margin-bottom:30px; 
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/*-------social media----*/
+/*-------footer section----*/
+.contact{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    border-radius:2px;
+    text-align: center;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.btn{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    border: none !important;
+}
+/*-------footer section----*/
